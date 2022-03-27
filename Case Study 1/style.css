@@ -1,0 +1,138 @@
+*{
+    font-family: Calibri; 
+    margin: 0;
+    padding: 0;
+}
+.container{                     /* For entire webpage */
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{                             /* Navigation bar */
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h1{                                 /* Heading in navigation  */
+    font-size: 48pt;
+    color: white;
+    margin-left: 50px;
+    font-weight: normal;
+}
+.links a{                            /* Links in navigation */
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+.links{                              
+    margin-right: 50px;
+}
+.nav2{                              /* 2nd nav bar   */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 100px;
+    height: 50px;
+}
+.nav2 input{                        /*Search bar  */
+    border: solid 1px black;
+    width: 200px;
+    height: 40px;
+}
+.nav2 ul li{                        /* List */
+    list-style: none;
+    color: #333;
+    display: inline-block;
+    font-size: 16pt;
+    margin-right: 10px;
+}
+.description{                      /* Grey Box */
+    background-color: #EDEDEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+h2{                                 /* Center writing */
+    font-size: 58pt;
+    color: #333;
+    font-weight: normal;
+}
+article{                            /* Article */
+    font-size: 18pt;
+    color: #333;
+    padding: 20px;
+}
+.bt-mgn{                            /* Line space */
+    margin-bottom: 20px;
+}
+.heading{                           /* Heading */
+    font-weight: normal;
+    color: #333;
+    font-size: 30pt;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+h3::first-letter{                      /* First Big letter */
+    font-size: 50pt;
+}
+.deals{                                 /* Deals Container */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+.deal p{                                /* Caption */
+    text-align: center;
+    font-size: 15px;
+}
+.deal img{                              /* Image margin */
+    margin-bottom: 10px;
+}
+.fsnctg{                                /* Fashion Container */
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.fsnctg p{                                /* Caption */
+    text-align: center;
+    font-size: 20pt;
+    color: #333;
+}
+.fashion{                                  /* Image Padding */
+    background-color: #dbf3fa;
+    padding: 5px 5px;
+}
+.categories{
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.categories p{                          /* Categories */
+    font-size: 14pt;
+    color: #333;
+    margin-bottom: 15px;
+}
+footer{                                 /* Footer Container */
+    display: flex;
+    background-color: #131a22;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 30px 0 200px 100px;
+}
+footer li{                              /* Footer Lists */
+    color: white;
+    font-size: 16pt;
+    list-style: none;
+    margin-bottom: 8px;
+}
+footer li:first-child{
+    font-size: 18pt;
+}
