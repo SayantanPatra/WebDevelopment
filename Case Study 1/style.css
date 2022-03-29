@@ -118,6 +118,7 @@ h3::first-letter{                      /* First Big letter */
     font-size: 14pt;
     color: #333;
     margin-bottom: 15px;
+    margin-left: 100px;
 }
 footer{                                 /* Footer Container */
     display: flex;
@@ -132,6 +133,7 @@ footer li{                              /* Footer Lists */
     font-size: 16pt;
     list-style: none;
     margin-bottom: 8px;
+    margin-left: 50px;
 }
 footer li:first-child{
     font-size: 18pt;
