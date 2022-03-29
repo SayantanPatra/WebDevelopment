@@ -1,0 +1,361 @@
+@import url(https://www.cognizant.com/etc/designs/cognizant_foundation_dotcom_new/Cognizant_sans_font_clientlib.min.20ba39e99e5e3a95f02f4c6537997e3c.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.alert{
+    margin-bottom: 0;
+}
+.navbar-nav{    /* Navbar*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-nav a{
+    font-size: 18px;
+    color: #000048 !important;
+}
+.navbar-nav a:hover{
+    color: blue !important;
+}
+.navbar-nav li h4{
+    font-weight: normal;
+}
+.navleft{
+    margin-left: 7rem;
+}
+.navright{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.3fr 1fr 0.1fr;
+    align-items: center;
+}
+.container1{            /*2 navbar*/
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-left: 5rem;
+}
+.buttons a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color: #000048;
+    padding: 12px 15px;
+}
+.buttons b{
+    color: cyan;
+}
+.buttons a:hover{
+    color: white;
+    background-color: #000048;
+}
+.cognizant{         /*Image*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.cognizant h4{
+    color: #53565a;
+    margin-left: -40px;
+}
+.navbutton .btn{        /*navbutton*/
+    background-color: white;
+    color: blue;
+    font-size: 3rem;
+    border: none;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+.offcanvas-body{        /*navbutton body */
+    background-color: #000048;
+}
+.offcanvas-body a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.offcanvas-body b{
+    color: cyan;
+}
+.offcanvas-body input{
+    color: white;
+    background-color: #000048;
+    border: white solid 2px;
+    height: 2rem;
+    width: 10rem;
+    margin: 10px;
+}
+.carousel-caption{          /*Carousel*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ch, .chh {
+  color: white;
+}
+.ch{
+    font-size: 3rem; 
+}
+.cp{
+    font-size: 2rem;
+}
+.btn_c,
+.btn_c:hover {
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  background-color: #00b140;
+}
+.article{               /*Article*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #287fc4;
+    font-feature-settings: "ss00";
+    margin: 50px;
+}
+.card{                  /*Card*/
+    background-color: #000048;
+}
+.card .row{
+    display: grid;
+    color: white;
+    grid-template-columns: 0.6fr 1fr;
+    justify-items: start;
+    align-items: center;
+    margin-left: 100px;
+}
+.card p,a{
+    font-size: 1.2rem;
+}
+.cardh{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+    color: cyan;
+}
+.card a:hover{
+    color: white;
+}
+.collage{               /*Collage*/
+    padding: 50px;
+    background-color:#26efe9;
+    color: white;
+}
+.heading{
+    font-size: 3rem;
+    color: white;
+    margin-left: 5rem;
+}
+.para{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+} 
+.picl{
+    justify-self: end;
+}
+.list{                      /*list*/
+    height: 660px;
+    background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/in/dotcom/images/services-india-hp-parallax-banner.jpg");
+}
+.listhead{
+    padding-top: 3rem;
+}
+.list .para{
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 1px white solid;
+}
+.list .heading{
+    margin-bottom: 2rem;
+}
+.part{
+    display: grid;
+    grid-template-rows: 110px 110px 110px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: white;
+}
+.parts{
+    display: grid;
+    grid-template-columns: 0.9fr 0.1fr 2fr 0.2fr;
+    align-items: center;
+}
+.parts h6{
+    color: white;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+.parts h5{
+    color: white;
+    border-left: 1px white solid;
+    font-size: 60px;
+    font-weight: normal;
+}
+.parts p{
+    font-size: 1.2rem;
+}
+.parts a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 2rem;
+    justify-self: center;
+}
+.em1{
+    background-color: #000048;
+}
+.em2{
+    background-color: #183c86;
+}
+.em3{
+    background-color: #2f78c4;
+}
+.multiplecards{             /*3 cards*/
+    background-color: cyan;
+    padding: 3rem;
+}
+.mulcards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.card-body{
+    background-color: white;
+}
+.card-title{
+    font-size: 1rem;
+    color: #000048;
+}
+.card-text{
+    font-size: 1.2rem;
+    color: #000048;
+}
+.card-body h2{
+    color: blue;
+    font-size: 1.5rem;
+}
+.card-body a{
+    text-decoration: none;
+}
+.card-body a:hover{
+    color: #000048;
+}
+.poster{
+        position: relative;
+        color: white;
+}
+.posterbox {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #000048d5;
+    height: 370px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.posterbox h3{
+    font-size: 3rem;
+    margin: 10px 20px;
+    color: white;
+}
+.posterbox a{
+    text-decoration: none;
+    color: cyan;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+.posterbox strong{
+    font-size: 2rem;
+}
+.sns{               /*social networking*/
+    background-color: #e8e8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-bottom: 3rem;
+}
+.logos i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.logos a{
+    color: rgb(45, 45, 252);
+}
+.logos a:hover{
+    color: #000048;
+}
+.links a{
+    color: #000048;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.links a:hover{
+    color: rgb(45, 45, 252);
+}
+.links p{
+    display: inline-block;
+    font-size: 1rem;
+    color: #000048;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 1fr;
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.fl a{
+    text-decoration: none;
+    color: #000048;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.fl a:hover{
+    color: #287fc4;
+}
+.fl h6{
+    font-size: 1.2rem;
+    color: #287fc4;
+}
+.fl p{
+    color: #000048;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
