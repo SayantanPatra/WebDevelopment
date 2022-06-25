@@ -1,0 +1,122 @@
+body {
+  font-family: "Open Sans";
+  background-color: #e2e2e2;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 100px minmax(calc(100vh - 145px), max-content) 45px;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #2335b8;
+  padding: 10px 30px;
+  font-size: 40px;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+#content-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 70%;
+  justify-self: center;
+}
+
+#content {
+  padding: 60px 40px;
+  width: 100%;
+  height: 100%;
+}
+
+#content > h2 {
+  font-size: 30px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #2335b8;
+  margin-bottom: 15px;
+}
+
+#columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  width: 50%;
+}
+
+#left > h5 {
+  cursor: pointer;
+  margin: 0;
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+#left h5:nth-child(2n + 1) {
+  background-color: #eaeaf8;
+}
+#left h5:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+#right {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#photo-name-div {
+  display: flex;
+}
+
+#photo-div {
+  max-width: 150px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+#footer {
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+#emp-details {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+#emp-details th:first-of-type {
+  padding-right: 2rem;
+}
+
+@media (max-width: 1024px) {    /* Media Queries*/
+  #content-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 418px) {
+  #columns {
+    flex-direction: column;
+  }
+
+  #columns > * {
+    width: 100%;
+  }
+}
